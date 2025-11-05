@@ -1,7 +1,7 @@
 export default {
     // 应用级配置选项
     lang: 'zh-cn',
-    title: 'VitePress',
+    title: '阿帅正传',
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
         footer: {
