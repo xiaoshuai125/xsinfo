@@ -14,8 +14,8 @@ export default {
                 {
                     text: 'Linux',
                     items: [
-                        {text: 'Index', link: '/linux/linux'},
-                        {text: 'nvim', link: '/linux/01-nvim'},
+                        {text: 'Linux踩坑日记', link: '/linux/linux'},
+                        {text: '学习使用Neovim', link: '/linux/01-nvim'},
                     ]
                 }
             ],
