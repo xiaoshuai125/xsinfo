@@ -23,7 +23,7 @@ fc-list | grep -i "jetbrainsmono nerd"
 ::: info
 安装完成字体之后要设置自己的终端字体为 JetBrainsMono Nerd Font Mono
 :::
-
+![img.png](img/img.png)
 ## 安装 nvim
 我常试过使用 apt 安装，但是我安装的总是有问题。先说怎么安装，后面再说踩到的坑。
 我现在用的是 appimage 版本的，下载地址
@@ -32,10 +32,10 @@ https://github.com/neovim/neovim/releases
 我下载到了～/Applications 目录，根据自己喜好设置【2025 年 9 月 5 日 22:18:09】
 ```shell
 cd ~/Applications
-wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.appimage
-chmod +x nvim-linux-x86_64.appimage
+wget https://github.com/neovim/neovim/releases/download/nightly/nvim-linux-x86_64.tar.gz
+tar xzvf nvim-linux-x86_64.tar.gz
 # 然后修改 ./bashrc 添加一个启动方式
-echo "alias nvim='~/Applications/nvim-linux-x86_64.appimage'" >> ~/.bashrc
+echo "alias nvim='~/Applications/nvim-linux-x86_64/bin/nvim'" >> ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -50,5 +50,5 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 回车之后就会安装了，会略微卡几秒钟 不要慌
 先体验一下试试
-
+![img.png](img/img02.png)
 目前到这里了，后面更新。。。 还再学，先记录一点【2025 年 9 月 5 日 17:50:53】
