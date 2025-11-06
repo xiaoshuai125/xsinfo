@@ -8,11 +8,11 @@ hero:
   tagline: Timeless小帅's Blog
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Linux使用日常
+      link: /linux/linux
+#    - theme: alt
+#      text: Linux使用日常
+#      link: /linux
 
 features:
   - title: Feature A
