@@ -5,7 +5,7 @@ export default {
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
         footer: {
-            message: 'ICP备案号：<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备2025104367号</a>',
+            message: '<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备2025104367号</a>/<a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">京公网安备11011502038830号</a>',
             copyright: 'Copyright © 2019-2025 阿帅正传'
         }
     }
