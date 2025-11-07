@@ -1,5 +1,10 @@
 #!/bin/bash
 
+echo "del cache"
+rm -rf ./node_modules
+rm -rf ./docs/.vitepress/cache
+rm -rf ./docs/.vitepress/dist
+
 echo "npm install"
 npm install
 echo "run docs:build"
