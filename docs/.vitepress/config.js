@@ -4,6 +4,17 @@ export default {
     title: '阿帅正传',
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
+        lastUpdated: {
+            text: '文档更新时间：',
+            formatOptions: {
+                dateStyle: 'full',
+                timeStyle: 'medium'
+            }
+        },
+        editLink: {
+            pattern: 'https://gitee.com/song_kang_shuai/xsinfo/edit/master/docs/:path',
+            text: 'Gitee 上编辑该文档'
+        },
         footer: {
             message: '<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备2025104367号</a>/<a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">京公网安备11011502038830号</a>',
             copyright: 'Copyright ©2025 阿帅正传 版权所有 | 转载请注明出处'
