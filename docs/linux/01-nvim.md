@@ -1,3 +1,6 @@
+---
+layout: doc
+---
 # nvim 编辑器
 
 最近想尝试用一下 nvim，我的操作系统是 Ubuntu24

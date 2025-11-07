@@ -1,3 +1,6 @@
+---
+layout: doc
+---
 # Linux 使用日常记录
 
 Linux学习日记，记录一些踩过的坑

@@ -4,8 +4,11 @@ export default {
     title: '阿帅正传',
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
+        search: {
+            provider: 'local'
+        },
         lastUpdated: {
-            text: '文档更新时间：',
+            text: '文档更新时间',
             formatOptions: {
                 dateStyle: 'full',
                 timeStyle: 'medium'
