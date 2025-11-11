@@ -15,8 +15,8 @@ export default {
             }
         },
         editLink: {
-            pattern: 'https://gitee.com/song_kang_shuai/xsinfo/edit/master/docs/:path',
-            text: 'Gitee 上编辑该文档'
+            pattern: 'https://github.com/xiaoshuai125/xsinfo/edit/master/docs/:path',
+            text: '在 Github 上编辑该文档'
         },
         footer: {
             message: '<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备2025104367号</a>/<a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">京公网安备11011502038830号</a>',
@@ -27,7 +27,7 @@ export default {
             { text: '关于', link: '/about' },
             // { text: '瑞芯微系列', link: '/config' },
             // { text: '六轴机械臂', link: '/config' },
-            { text: '文档源码', link: 'https://gitee.com/song_kang_shuai/xsinfo' }
+            { text: '文档源码', link: 'https://github.com/xiaoshuai125/xsinfo' }
         ],
         sidebar: {
             // 当用户位于 `guide` 目录时，会显示此侧边栏
@@ -42,8 +42,8 @@ export default {
             ],
         },
         socialLinks: [
-            { icon: 'gitee', link: 'https://gitee.com/song_kang_shuai' },
             { icon: 'github', link: 'https://github.com/xiaoshuai125' },
+            { icon: 'gitee', link: 'https://gitee.com/song_kang_shuai' },
         ],
     }
 }
