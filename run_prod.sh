@@ -1,10 +1,12 @@
 #!/bin/bash
 
+# 删除缓存
 echo "del cache"
 rm -rf ./node_modules
 rm -rf ./docs/.vitepress/cache
 rm -rf ./docs/.vitepress/dist
 
+# 部署静态网页
 echo "npm install"
 npm install
 echo "run docs:build"
