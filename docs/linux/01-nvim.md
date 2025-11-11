@@ -53,5 +53,6 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ```
 回车之后就会安装了，会略微卡几秒钟 不要慌
 先体验一下试试
-![](./assets/jLi0Hi6RWvWk.png)
+![](./assets/iGoqlhSozp9z.png)
 目前到这里了，后面更新。。。 还再学，先记录一点【2025 年 9 月 5 日 17:50:53】
+
