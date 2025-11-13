@@ -23,20 +23,32 @@ export default {
             copyright: 'Copyright ©2025 阿帅正传 版权所有 | 转载请注明出处'
         },
         nav: [
-            { text: 'Linux', link: '/linux/linux' },
+            { text: '游戏记录',
+                items: [
+                    {text: '图灵完备Turing Complete', link: '/game/turing_complete'},
+                ]
+            },
+            // { text: 'Linux', link: '/linux/linux' },
             { text: '关于', link: '/about' },
             // { text: '瑞芯微系列', link: '/config' },
             // { text: '六轴机械臂', link: '/config' },
-            { text: '文档源码', link: 'https://github.com/xiaoshuai125/xsinfo' }
+            { text: '文档源码', link: 'https://github.com/xiaoshuai125/xsinfo' },
         ],
         sidebar: {
-            // 当用户位于 `guide` 目录时，会显示此侧边栏
             '/linux/': [
                 {
                     text: 'Linux',
                     items: [
                         {text: 'Linux踩坑日记', link: '/linux/linux'},
                         {text: '学习使用Neovim', link: '/linux/01-nvim'},
+                    ]
+                }
+            ],
+            '/game/': [
+                {
+                    text: '游戏记录',
+                    items: [
+                        {text: '图灵完备Turing Complete', link: '/game/turing_complete'},
                     ]
                 }
             ],
