@@ -4,6 +4,8 @@ export default {
     title: '阿帅正传',
     description: 'Vite & Vue powered static site generator.',
     themeConfig: {
+        siteTitle: false,
+        logo: '/logo.png',
         search: {
             provider: 'local'
         },
@@ -46,7 +48,7 @@ export default {
             ],
             '/game/': [
                 {
-                    text: '游戏记录',
+                    // text: '游戏记录',
                     items: [
                         {text: '图灵完备Turing Complete', link: '/game/turing_complete'},
                     ]

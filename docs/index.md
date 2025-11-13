@@ -6,6 +6,8 @@ hero:
   name: "阿帅正传"
   text: "一个安静的文档站"
   tagline: Timeless小帅's Blog
+#  image:
+#    src: /logo.png
   actions:
     - theme: brand
       text: Linux使用日常
