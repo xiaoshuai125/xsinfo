@@ -17,9 +17,13 @@ export default {
                 timeStyle: 'medium'
             }
         },
+        // editLink: {
+        //     pattern: 'https://github.com/xiaoshuai125/xsinfo/edit/master/docs/:path',
+        //     text: '在 Github 上编辑该文档'
+        // },
         editLink: {
-            pattern: 'https://github.com/xiaoshuai125/xsinfo/edit/master/docs/:path',
-            text: '在 Github 上编辑该文档'
+            pattern: 'https://gitee.com/song_kang_shuai/xsinfo/edit/master/docs/:path',
+            text: '在 Gitee 上编辑该文档'
         },
         footer: {
             message: '<a href="https://beian.miit.gov.cn" target="_blank">冀ICP备2025104367号</a>/<a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">京公网安备11011502038830号</a>',
@@ -57,8 +61,8 @@ export default {
             ],
         },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/xiaoshuai125' },
             { icon: 'gitee', link: 'https://gitee.com/song_kang_shuai' },
+            { icon: 'github', link: 'https://github.com/xiaoshuai125' },
         ],
     }
 }
