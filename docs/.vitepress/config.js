@@ -3,6 +3,7 @@ export default {
     lang: 'zh-cn',
     title: '阿帅正传',
     description: 'Vite & Vue powered static site generator.',
+    head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
     themeConfig: {
         siteTitle: false,
         logo: '/logo.png',
