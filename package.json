@@ -1,6 +1,19 @@
 {
+  "name": "xsinfo",
+  "homepage":"https://www.xsinfo.vip/",
   "devDependencies": {
     "vitepress": "^2.0.0-alpha.12"
+  },
+  "author": {
+    "email": "1250076672@qq.com",
+    "name": "Timeless小帅",
+    "url": "https://gitee.com/song_kang_shuai"
+  },
+  "keywords": ["阿帅正传",""],
+  "repository": "https://gitee.com/song_kang_shuai/xsinfo.git",
+  "bugs": {
+    "url" : "https://gitee.com/song_kang_shuai/xsinfo/issues",
+    "email" : "1250076672@qq.com"
   },
   "scripts": {
     "docs:dev": "vitepress dev docs",

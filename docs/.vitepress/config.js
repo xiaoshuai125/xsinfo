@@ -44,7 +44,7 @@ export default {
         sidebar: {
             '/linux/': [
                 {
-                    text: 'Linux',
+                    text: 'Ubuntu 22.04使用记录',
                     items: [
                         {text: 'Linux踩坑日记', link: '/linux/linux'},
                         {text: '学习使用Neovim', link: '/linux/01-nvim'},
