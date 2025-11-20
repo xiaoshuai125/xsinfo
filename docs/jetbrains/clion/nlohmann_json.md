@@ -18,7 +18,8 @@ git clone https://github.com/nlohmann/json.git
 
 components/nlohmann_json/tools/gdb_pretty_printer/nlohmann-json.py
 
-在项目根目录创建.gdbinit文件，添加：
+在项目根目录创建`.gdbinit`文件，添加：
+
 ```shell
 source components/nlohmann_json/tools/gdb_pretty_printer/nlohmann-json.py
 # 设置打印选项
@@ -26,10 +27,12 @@ set print pretty on
 set print object on
 set print array on
 ```
-如果你没有配置过`~/.gdbinit` 启动会出错,提示不安全
+
+如果你没有配置过`~/.config/gdb/gdbinit` 启动会出错,提示不安全
 追加全局设置为安全路径
 ```shell
-echo "set auto-load safe-path /" >> ~/.gdbinit
+mkdir -p ~/.config/gdb
+echo "set auto-load safe-path /" >> ~/.config/gdb/gdbinit
 ```
 再次启动调试即可
 
