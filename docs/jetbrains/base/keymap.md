@@ -1,22 +1,31 @@
 ---
 layout: doc
 ---
-# Jetbrains 系列IDE在ubuntu使用
-与windows 不同,ubuntu使用Jetbrains 系列IDE会有一些快捷键冲突,导致使用的时候很难受,下面就是来解决冲突问题
+# Jetbrains 系列IDE快捷键冲突
+使用Jetbrains 系列IDE会有一些快捷键冲突,导致使用的时候很难受,下面就是来解决冲突问题,下面是常见的冲突问题
 
 ## 搜索快捷键Ctrl+Alt+F
 按下 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>F</kbd> 即可触发搜索功能,但是这个被输入法给占用了,需要删除配置
 
+### ubuntu
 一般是输入法占用了,在`设置`里找到`键盘`,然后输入法的 `首选项` 点击`快捷键`把 `ctrl+alt+f` 的删除即可
+### windows 
+一般也是输入法配置,具体的可以看一下自己使用的输入法快捷键设置
 
 ## 前进后退Ctrl+Alt+左右箭头
-如果使用windows按键布局就是 按下 
-
-<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&lt;</kbd> 和  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&gt;</kbd> 
-
+### windows
+如果使用windows按键布局就是 按下
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&lt;</kbd> 和  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&gt;</kbd>
 可以前进与后退
 
-不过现在默认使用了GNOME的按键映射而不是windows,GNOME的前进后退如下:
+### ubuntu
+在ubuntu下按下
+
+<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&lt;</kbd> 和  <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>&gt;</kbd>
+
+会切换工作区,误以为是快捷键冲突,其实是默认使用了GNOME的按键映射而不是windows
+
+GNOME的前进后退如下:
 
 <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>&lt;</kbd> 和  <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>&gt;</kbd>
 

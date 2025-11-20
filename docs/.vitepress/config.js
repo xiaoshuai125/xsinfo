@@ -49,15 +49,27 @@ export default {
                         {text: 'Linux踩坑日记', link: '/linux/linux'},
                         {text: '学习使用Neovim', link: '/linux/01-nvim'},
                         {text: 'Rime输入法', link: '/linux/02-rime'},
-                        {text: 'Jetbrains系列', link: '/linux/03-jetbrains'},
                     ]
                 }
             ],
             '/game/': [
                 {
-                    // text: '游戏记录',
                     items: [
                         {text: '图灵完备Turing Complete', link: '/game/turing_complete'},
+                    ]
+                }
+            ],
+            '/jetbrains/': [
+                {
+                    text: '针对于所有IDE',
+                    items: [
+                        {text: '按键冲突问题排查', link: '/jetbrains/base/keymap'},
+                    ]
+                },
+                {
+                    text: 'Clion',
+                    items: [
+                        {text: '配置nlohmann_json', link: '/jetbrains/clion/nlohmann_json'},
                     ]
                 }
             ],

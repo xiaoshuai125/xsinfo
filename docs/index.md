@@ -19,6 +19,9 @@ features:
   - title: Linux笔记
     details: 接下来一段时间会持续记录Linux相关笔记，主要是以ubuntu22.04操作系统为主
     link: /linux/linux
+  - title: Jetbrains系列
+    details: 我主要的开发工具为 Clion Idea Pycharm 期间又需要配置的我就列出来做个记录
+    link: /jetbrains/base/keymap
   - title: 瑞芯微系列
     details: 目前再学习瑞芯微系列的开发版，目前围绕RK3506与RK3566系列
   - title: ESP32系列
