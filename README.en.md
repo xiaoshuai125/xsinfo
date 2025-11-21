@@ -25,11 +25,11 @@ xsinfo is a knowledge documentation and sharing platform primarily designed to o
    ```
 3. Run the project:
    ```bash
-   npm run dev
+   npm run docs:dev
    ```
 4. Build the production version:
    ```bash
-   npm run build
+   npm run docs:build
    ```
 
 ## How to Contribute
