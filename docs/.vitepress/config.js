@@ -49,6 +49,7 @@ export default {
                         {text: 'Linux踩坑日记', link: '/linux/linux'},
                         {text: '学习使用Neovim', link: '/linux/01-nvim'},
                         {text: 'Rime输入法', link: '/linux/02-rime'},
+                        {text: '使用Windows字体', link: '/linux/03-windows-fonts'},
                     ]
                 }
             ],
