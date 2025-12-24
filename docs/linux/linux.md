@@ -1,6 +1,34 @@
 ---
-layout: doc
+layout: home
+
+hero:
+  name: "阿帅正传"
+  text: "Linux 踩坑日记"
+#  tagline: Timeless小帅's Blog
+#  image:
+#    src: /logo.png
+#  actions:
+#    - theme: brand
+#      text: Linux使用日常
+#      link: /linux/linux
+#    - theme: alt
+#      text: Linux使用日常
+#      link: /linux
+
+features:
+  - title: 学习使用Neovim
+    details: 最近想尝试用一下 nvim
+    link: /linux/01-nvim
+  - title: Rime输入法
+    details: ibus + rime的方案。纯开源输入法，没有任何广告，并且支持自己修改
+    link: /linux/02-rime
+  - title: 使用Windows字体
+    link: /linux/03-windows-fonts
+    details: 适用于双系统或有 Windows 分区的情况，可直接使用原系统字体。
 ---
+<br>
+<br>
+
 # Linux 使用日常记录
 
 Linux学习日记，记录一些踩过的坑

@@ -7,10 +7,10 @@ hero:
   tagline: Timeless小帅's Blog
 #  image:
 #    src: /logo.png
-  actions:
-    - theme: brand
-      text: Linux使用日常
-      link: /linux/linux
+#  actions:
+#    - theme: brand
+#      text: Linux使用日常
+#      link: /linux/linux
 #    - theme: alt
 #      text: Linux使用日常
 #      link: /linux
