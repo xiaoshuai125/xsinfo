@@ -64,6 +64,7 @@ export default {
                 {
                     text: '针对于所有IDE',
                     items: [
+                        {text: '25周年生日快乐', link: '/jetbrains/base/birthday25'},
                         {text: '按键冲突问题排查', link: '/jetbrains/base/keymap'},
                     ]
                 },
