@@ -43,7 +43,10 @@ source ~/.bashrc
 ```
 
 之后就可以命令行使用 nvim 了
-## 使用 NvChad
+## 使用 lazyvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim && nvim
+
+## 使用 NvChad(不折腾这个了)
 这里有安装教程：
 https://nvchad.com/docs/quickstart/install
 
