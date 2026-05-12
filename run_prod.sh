@@ -6,17 +6,19 @@ rm -rf ./node_modules
 rm -rf ./docs/.vitepress/cache
 rm -rf ./docs/.vitepress/dist
 
-# 部署静态网页
+# 安装依赖
 echo "npm install"
 npm install
-echo "run docs:build"
+
+# 构建静态文件
+echo "npm run docs:build"
 npm run docs:build
-chown -R www:www ./
-echo "npm run docs:preview"
 
-# 杀掉之前运行的进程
-#ps -ef | grep "npm run docs:preview" | grep -v grep | awk '{print $2}' | xargs kill -9
-netstat -tulpn | grep :1234 | awk '{print $7}' | cut -d '/' -f1 | xargs kill -9
+# 拷贝到目标目录
+echo "copy to /www/xsinfo"
+sudo rm -rf /www/xsinfo
+sudo mkdir -p /www/xsinfo
+sudo cp -r ./docs/.vitepress/dist/* /www/xsinfo/
+sudo chown -R www-data:www-data /www/xsinfo/
 
-# 以 www 身份后台运行，忽略挂断信号，输出重定向到日志
-nohup sudo -u www npm run docs:preview > /www/wwwroot/xsinfo/preview.log 2>&1 &
+echo "done"
